@@ -23,6 +23,8 @@ void print_list(const listint_t *list);
 /*sorting algorithms*/
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
+void quick_sort(int *array, size_t size);
+void selection_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 listint_t *get_tail(listint_t **list);
@@ -33,5 +35,6 @@ void swap_items(int *array, size_t l, size_t r);
 void sift_down(int *array, int arr_size, int size, int pos);
 void build_max_heap(int *array, int size);
 void heap_sort(int *array, size_t size)
+void radix_sort(int *array, size_t size);
 
 #endif
