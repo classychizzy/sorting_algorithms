@@ -2,12 +2,6 @@
 #define __SORT_H__
 #include <stdio.h>
 #include <stdlib.h>
-#ifndef TRUE
-#define TRUE 1
-#endif
-#ifndef FALSE
-#define FALSE 0
-#endif
 /**
  * struct listint_s - Doubly linked list node
  *
