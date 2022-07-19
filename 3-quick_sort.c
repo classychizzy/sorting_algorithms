@@ -2,7 +2,7 @@
 
 /**
  * swap_items - Swaps two items in an array.
- * @array: The array to modify.
+ * @array: The array as to modify.
  * @l: The index of the left item.
  * @r: The index of the right item.
  */
