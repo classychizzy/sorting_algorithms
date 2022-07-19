@@ -2,6 +2,7 @@
 #define __SORT_H__
 #include <stdio.h>
 #include <stdlib.h>
+#include "deck.h"
 
 #ifndef TRUE
 #define TRUE 1
@@ -42,5 +43,6 @@ void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
+void sort_deck(deck_node_t **deck);
 
 #endif
