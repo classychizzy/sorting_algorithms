@@ -11,6 +11,7 @@
 #define FALSE 0
 #endif
 
+
 /* Comparison direction macros for bitonic sort */
 #define UP 0
 #define DOWN 1
