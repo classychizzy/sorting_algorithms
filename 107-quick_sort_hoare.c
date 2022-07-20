@@ -62,7 +62,7 @@ void quick_sort_range_hoare(int *array, size_t low, size_t high, size_t size)
  * quick_sort_hoare - Sorts an array using the quick sort algorithm
  * and Hoare's partition scheme.
  * @array: The array to sort.
- * @size: The length of the array.
+ * @size: The length of array.
  */
 void quick_sort_hoare(int *array, size_t size)
 {
