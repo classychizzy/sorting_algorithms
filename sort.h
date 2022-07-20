@@ -43,7 +43,7 @@ listint_t *get_tail(listint_t **list);
 void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
-
+void radix_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void selection_sort(int *array, size_t size);
